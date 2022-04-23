@@ -10,7 +10,7 @@
 }
 
 :root {
-  --color-bg: #1f1f38;
+  --color-bg: white;
   --color-bg-variant: #2c2c6c;
   --color-primary: #4db5ff;
   --color-primary-variant: rgba(77, 181, 255, 0.4);
@@ -37,7 +37,6 @@ body {
   background: var(--color-bg);
   color: var(--color-white);
   line-height: 1.7;
-  background-image: url(../src/assets/bg-texture.png);
 }
 
 /* ------------- GENERAL STYLES ---------------- */
@@ -64,7 +63,7 @@ section {
 section > h2,
 section > h5 {
   text-align: center;
-  color: var(--color-light);
+  color: var(--color-primary);
 }
 
 section > h2 {
@@ -97,7 +96,7 @@ a:hover {
 }
 
 .btn:hover {
-  background: var(--color-white);
+  background: var(--color-primary);
   color: var(--color-bg);
   border-color: transparent;
 }
@@ -105,6 +104,12 @@ a:hover {
 .btn-primary {
   background: var(--color-primary);
   color: var(--color-bg);
+}
+
+.btn-primary:hover {
+  border-color: var(--color-primary);
+  background-color: var(--color-white);
+  color: var(--color-primary);
 }
 
 img {

@@ -16,28 +16,28 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
-                <small className="text-light">Basic</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>CSS</h4>
-                <small className="text-light">Basic</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>JAVASCRIPT</h4>
-                <small className="text-light">Basic</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>REACT</h4>
-                <small className="text-light">Basic</small>
+                <small>Basic</small>
               </div>
             </article>
           </div>
@@ -50,21 +50,21 @@ const Experience = () => {
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>PYTHON</h4>
-                <small className="text-light">Basic</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>MYSQL</h4>
-                <small className="text-light">Basic</small>
+                <small>Basic</small>
               </div>
             </article>
             <article className="experience__details">
               <BsPatchCheckFill className="experience__details-icon" />
               <div>
                 <h4>DJANGO</h4>
-                <small className="text-light">Basic</small>
+                <small>Basic</small>
               </div>
             </article>
           </div>
