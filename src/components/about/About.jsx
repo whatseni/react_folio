@@ -1,9 +1,9 @@
 import React from "react";
 import "./about.css";
 import ME from "../../assets/me-about.jpeg";
-import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
-import { VscFolderLibrary } from "react-icons/vsc";
+import { GiTreeGrowth } from "react-icons/gi";
+import { MdCleaningServices } from "react-icons/md";
+import { HiOutlineSpeakerphone } from "react-icons/hi";
 
 const About = () => {
   return (
@@ -21,27 +21,26 @@ const About = () => {
         <div className="about__content">
           <div className="about__cards">
             <article className="about__card">
-              <FaAward className="about__icon" />
-              <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <GiTreeGrowth className="about__icon" />
+              <h5>Growth</h5>
+              <small>Always effort</small>
             </article>
 
             <article className="about__card">
-              <FiUsers className="about__icon" />
-              <h5>Clients</h5>
-              <small>300+ Worldwide</small>
+              <MdCleaningServices className="about__icon" />
+              <h5>CleanCode</h5>
+              <small>Easy to understand</small>
             </article>
 
             <article className="about__card">
-              <VscFolderLibrary className="about__icon" />
-              <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <HiOutlineSpeakerphone className="about__icon" />
+              <h5>Communication</h5>
+              <small>Comfortable conversation</small>
             </article>
           </div>
 
           <p className="text-color">
-            Hi I;me dkfdjfajksdfjaskldfjalskdjfadskjf dsf dfgafadsfsa dsfadsfads
-            g fgs d fasd fex df d f df
+            Hello. I'm a FE-Developer. Welcome to my home page.
           </p>
         </div>
       </div>
