@@ -1,8 +1,8 @@
 import React from "react";
 import "./footer.css";
-import { FaFacebookF } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FiInstagram } from "react-icons/fi";
-import { IoLogoTwitter } from "react-icons/io";
+
 const Footer = () => {
   return (
     <footer>
@@ -18,11 +18,9 @@ const Footer = () => {
           <a href="#about">ABOUT</a>
         </li>
         <li>
-          <a href="#experience">EXPERIENCE</a>
+          <a href="#experience">SKILL</a>
         </li>
-        <li>
-          <a href="#services">SERIVCES</a>
-        </li>
+
         <li>
           <a href="#portfolio">PORTFOLIO</a>
         </li>
@@ -32,19 +30,16 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://www.facebook.com">
-          <FaFacebookF />
+        <a href="https://github.com/seeys">
+          <FaGithub />
         </a>
-        <a href="https://www.instagram.com">
+        <a href="https://www.instagram.com/eeeeesssss___/">
           <FiInstagram />
-        </a>
-        <a href="https://www.twitter.com">
-          <IoLogoTwitter />
         </a>
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; SEEUN Tutorilas All rights reserved.</small>
+        <small>&copy; SEEUN Portfolio All rights reserved.</small>
       </div>
     </footer>
   );
