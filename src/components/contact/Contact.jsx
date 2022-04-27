@@ -23,8 +23,8 @@ const Contact = () => {
         <article className="contact__option">
           <RiMessengerLine className="contact__option-icon" />
           <h4>Messenger DM</h4>
-          <h5>Instagram ess</h5>
-          <a href="https://www.instagram.com" target="_blank">
+          <h5>Instagram</h5>
+          <a href="https://www.instagram.com/eeeeesssss___/" target="_blank">
             Send a message
           </a>
         </article>
@@ -32,8 +32,8 @@ const Contact = () => {
         <article className="contact__option">
           <BsWhatsapp className="contact__option-icon" />
           <h4>Kakaotalk</h4>
-          <h5>sodgyu</h5>
-          <a href="https://www.naver.com" target="_blank">
+          <h5>Open Chat</h5>
+          <a href="https://open.kakao.com/o/s9duBode" target="_blank">
             Send a message
           </a>
         </article>
