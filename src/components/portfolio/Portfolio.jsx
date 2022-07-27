@@ -11,7 +11,7 @@ const data = [
     image: IMG1,
     title: "COVID-19",
     github: "https://github.com/seeys/covid19",
-    demo: "https://github.com/seeys/covid19",
+    demo: "http://covid19-page.s3-website.ap-northeast-2.amazonaws.com/",
   },
   {
     id: 2,
@@ -23,7 +23,7 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "WhatIMade with js",
+    title: "Img Data Info",
     github: "https://github.com/seeys/what-i-made",
     demo: "https://github.com/seeys/what-i-made",
   },
