@@ -3,7 +3,6 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.jpg";
 import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
 
 const data = [
   {
@@ -18,14 +17,14 @@ const data = [
     image: IMG2,
     title: "PortFolio with React",
     github: "https://github.com/seeys/react_folio",
-    demo: "http://react-folio-page.s3-website.ap-northeast-2.amazonaws.com/#contact",
+    demo: "http://react-folio-page.s3-website.ap-northeast-2.amazonaws.com/",
   },
   {
     id: 3,
     image: IMG3,
-    title: "Img Data Info",
-    github: "https://github.com/seeys/what-i-made",
-    demo: "https://github.com/seeys/what-i-made",
+    title: "Personal Calendar",
+    github: "https://github.com/seeys/personal-calendar",
+    demo: "http://18.212.59.76/",
   },
 ];
 

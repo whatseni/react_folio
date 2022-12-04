@@ -81,7 +81,7 @@ a {
 }
 
 a:hover {
-  color: var(--color-white);
+  color: #e7f5ff;
 }
 
 .btn {

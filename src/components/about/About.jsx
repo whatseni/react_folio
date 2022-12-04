@@ -40,7 +40,7 @@ const About = () => {
           </div>
 
           <p className="text-color">
-            Hello. I'm a FE-Developer. Welcome to my home page.
+            Hello. I'm a curious Se-Eun. Welcome to my home page.
           </p>
         </div>
       </div>
