@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/me-about.jpeg";
+import ME from "../../assets/me-about.jpg";
 import { GiTreeGrowth } from "react-icons/gi";
 import { MdCleaningServices } from "react-icons/md";
 import { HiOutlineSpeakerphone } from "react-icons/hi";
