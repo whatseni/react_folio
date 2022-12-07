@@ -17,7 +17,7 @@ const data = [
     image: IMG2,
     title: "PortFolio with React",
     github: "https://github.com/seeys/react_folio",
-    demo: "http://react-folio-page.s3-website.ap-northeast-2.amazonaws.com/",
+    demo: "https://master.d2rvra3k2ykhzb.amplifyapp.com/",
   },
   {
     id: 3,
