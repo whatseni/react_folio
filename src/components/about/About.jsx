@@ -28,7 +28,7 @@ const About = () => {
 
             <article className="about__card">
               <MdCleaningServices className="about__icon" />
-              <h5>CleanCode</h5>
+              <h5>Curious</h5>
               <small>Easy to understand</small>
             </article>
 
@@ -40,7 +40,9 @@ const About = () => {
           </div>
 
           <p className="text-color">
-            Hello. I'm a curious Se-Eun. Welcome to my home page.
+            Welcome. I'm Front-End Developer.
+            <br />
+            <strong>I'll always continue to grow.</strong>
           </p>
         </div>
       </div>

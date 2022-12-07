@@ -9,8 +9,8 @@ const CTA = () => {
       <a href={CV} target="_blank" className="btn">
         Link Notion
       </a>
-      <a href="#contact" className="btn btn-primary">
-        Let's Talk
+      <a href="https://github.com/seeys" className="btn btn-primary">
+        My Github
       </a>
     </div>
   );
