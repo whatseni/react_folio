@@ -1,7 +1,7 @@
 import React from "react";
 import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
+import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.jpg";
 
 const data = [
@@ -15,9 +15,9 @@ const data = [
   {
     id: 2,
     image: IMG2,
-    title: "PortFolio with React",
-    github: "https://github.com/seeys/react_folio",
-    demo: "https://master.d2rvra3k2ykhzb.amplifyapp.com/",
+    title: "Ecommerce Web Site",
+    github: "https://github.com/team-13-beta/ecommercesite",
+    demo: "https://youtu.be/abISHEHNW2c",
   },
   {
     id: 3,
