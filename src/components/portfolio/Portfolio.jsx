@@ -3,6 +3,7 @@ import "./portfolio.css";
 import IMG1 from "../../assets/portfolio1.jpg";
 import IMG2 from "../../assets/portfolio2.png";
 import IMG3 from "../../assets/portfolio3.jpg";
+import IMG4 from "../../assets/portfolio4.jpg";
 
 const data = [
   {
@@ -14,17 +15,24 @@ const data = [
   },
   {
     id: 2,
+    image: IMG3,
+    title: "Personal Calendar",
+    github: "https://github.com/seeys/personal-calendar",
+    demo: "http://18.212.59.76/",
+  },
+  {
+    id: 3,
     image: IMG2,
     title: "Ecommerce Web Site",
     github: "https://github.com/team-13-beta/ecommercesite",
     demo: "https://youtu.be/abISHEHNW2c",
   },
   {
-    id: 3,
-    image: IMG3,
-    title: "Personal Calendar",
-    github: "https://github.com/seeys/personal-calendar",
-    demo: "http://18.212.59.76/",
+    id: 4,
+    image: IMG4,
+    title: "Cocktailer",
+    github: "https://github.com/Cocktailer-Elice/cocktailer",
+    demo: "https://www.cocktailer.p-e.kr",
   },
 ];
 
