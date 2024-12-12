@@ -8,7 +8,6 @@ import { HiOutlineSpeakerphone } from "react-icons/hi";
 const About = () => {
   return (
     <section id="about">
-      <h5 className="text-color">Get to Know</h5>
       <h2>About me</h2>
 
       <div className="container about__container">
@@ -22,27 +21,24 @@ const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <GiTreeGrowth className="about__icon" />
-              <h5>Growth</h5>
-              <small>Always effort</small>
+              <h5>One More Find</h5>
             </article>
 
             <article className="about__card">
               <MdCleaningServices className="about__icon" />
-              <h5>Curious</h5>
-              <small>Easy to understand</small>
+              <h5>One More User</h5>
             </article>
 
             <article className="about__card">
               <HiOutlineSpeakerphone className="about__icon" />
-              <h5>Communication</h5>
-              <small>Comfortable conversation</small>
+              <h5>One More Plan</h5>
             </article>
           </div>
 
           <p className="text-color">
-            Welcome. I'm Front-End Developer.
+            저는 한번 더 찾아보고, 사용자 입장을 생각하고, 계획을 점검합니다.
             <br />
-            <strong>I'll always continue to grow.</strong>
+            <strong>언제나 한 단계 더 성장하기 위해 위 세가지 항목을 지키겠습니다.</strong>
           </p>
         </div>
       </div>

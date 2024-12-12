@@ -1,49 +1,33 @@
-import React from "react";
+import React, { useState } from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.png";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
+
+import PRAL from "../../assets/pral.jpg";
+import KT from "../../assets/kt.png";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "COVID-19",
-    github: "https://github.com/seeys/covid19",
-    demo: "http://covid19-page.s3-website.ap-northeast-2.amazonaws.com/",
+    image: PRAL,
+    title: "모바일 애플리케이션 Webview",
   },
   {
     id: 2,
-    image: IMG3,
-    title: "Personal Calendar",
-    github: "https://github.com/seeys/personal-calendar",
-    demo: "http://18.212.59.76/",
-  },
-  {
-    id: 3,
-    image: IMG2,
-    title: "Ecommerce Web Site",
-    github: "https://github.com/team-13-beta/ecommercesite",
-    demo: "https://youtu.be/abISHEHNW2c",
-  },
-  {
-    id: 4,
-    image: IMG4,
-    title: "Cocktailer",
-    github: "https://github.com/Cocktailer-Elice/cocktailer",
-    demo: "https://www.cocktailer.p-e.kr",
+    image: KT,
+    title: "VM 관리 모니터링 서비스",
   },
 ];
 
 const Portfolio = () => {
+  const [modalOpen, setOpenModal] = useState(false);
+  const handleOpenInfoModal = () => {
+
+  }
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
+      <h2>Project</h2>
 
       <div className="container portfolio__container">
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ id, image, title }) => {
           return (
             <article key={id} className="portfolio__item">
               <div className="portfolio__item-image">
@@ -51,12 +35,7 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <a href={github} className="btn" target="_blank">
-                  Github
-                </a>
-                <a href={demo} className="btn btn-primary" target="_blank">
-                  Project
-                </a>
+                <button className="btn btn-primary" onClick={handleOpenInfoModal}>More Info</button>
               </div>
             </article>
           );

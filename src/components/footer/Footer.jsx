@@ -1,7 +1,7 @@
 import React from "react";
 import "./footer.css";
 import { FaGithub } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
+import { SiVelog } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -22,7 +22,7 @@ const Footer = () => {
         </li>
 
         <li>
-          <a href="#portfolio">PORTFOLIO</a>
+          <a href="#portfolio">PROJECT</a>
         </li>
         <li>
           <a href="#contact">CONTACT</a>
@@ -30,11 +30,11 @@ const Footer = () => {
       </ul>
 
       <div className="footer__socials">
-        <a href="https://github.com/seeys">
+        <a href="https://github.com/whatseni" target="_blank">
           <FaGithub />
         </a>
-        <a href="https://www.instagram.com/eeeeesssss___/">
-          <FiInstagram />
+        <a href="https://velog.io/@sodgyu/posts" target="_blank">
+          <SiVelog />
         </a>
       </div>
 

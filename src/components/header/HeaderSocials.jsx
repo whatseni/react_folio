@@ -1,15 +1,15 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
+import { SiVelog } from "react-icons/si";
 
 const HeaderSocials = () => {
   return (
     <div className="header__socials">
-      <a href="https://github.com/seeys" target="_blank">
+      <a href="https://github.com/whatseni" target="_blank">
         <FaGithub />
       </a>
-      <a href="https://www.instagram.com/eeeeesssss___/" target="_blank">
-        <FiInstagram />
+      <a href="https://velog.io/@sodgyu/posts" target="_blank">
+        <SiVelog />
       </a>
     </div>
   );
