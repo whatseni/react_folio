@@ -3,15 +3,16 @@ import "./portfolio.css";
 
 import PRAL from "../../assets/pral.jpg";
 import KT from "../../assets/kt.png";
+import Modal from "./Modal";
 
 const data = [
   {
-    id: 1,
+    id: "lg",
     image: PRAL,
     title: "모바일 애플리케이션 Webview",
   },
   {
-    id: 2,
+    id: "kt",
     image: KT,
     title: "VM 관리 모니터링 서비스",
   },
@@ -19,11 +20,15 @@ const data = [
 
 const Portfolio = () => {
   const [modalOpen, setOpenModal] = useState(false);
-  const handleOpenInfoModal = () => {
-
+  const [modalState, setModalState] = useState(null);
+  const handleOpenModal = (id) => {
+    setModalState(id);
+    setOpenModal(true);
   }
+  const handleCloseModal = () => setOpenModal(false);
   return (
     <section id="portfolio">
+      <Modal open={modalOpen} handleClose={handleCloseModal} modalState={modalState} />
       <h2>Project</h2>
 
       <div className="container portfolio__container">
@@ -35,7 +40,7 @@ const Portfolio = () => {
               </div>
               <h3>{title}</h3>
               <div className="portfolio__item-cta">
-                <button className="btn btn-primary" onClick={handleOpenInfoModal}>More Info</button>
+                <button className="btn btn-primary" onClick={() => handleOpenModal(id)}>More Info</button>
               </div>
             </article>
           );
