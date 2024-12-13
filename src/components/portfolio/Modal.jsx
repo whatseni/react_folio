@@ -30,19 +30,21 @@ export default function Modal({ open, handleClose, modalState }) {
   return (
     <div className="modal__background" onClick={handleClose}>
       <div className="modal__container" onClick={(e) => e.stopPropagation()}>
-        <button className="modal__close" onClick={handleClose}>X</button>
-        <h2 className="">{data[modalState].title}</h2>
-        <br />
-        <h4>사용 기술 : {data[modalState].skills}</h4>
-        <br />
-        {
-          data[modalState].role.map(item => (
-            <>
-              <h4>* {item}</h4>
-              <br />
-            </>
-          ))
-        }
+        <div className="modal__btn__container"><button className="modal__close" onClick={handleClose}>X</button></div>
+        <div className="modal__content__container">
+          <h2 className="">{data[modalState].title}</h2>
+          <br />
+          <h4>사용 기술 : {data[modalState].skills}</h4>
+          <br />
+          {
+            data[modalState].role.map(item => (
+              <>
+                <h4>* {item}</h4>
+                <br />
+              </>
+            ))
+          }
+        </div>
       </div>
     </div>
   )
